@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <template id="fetch_bitcoin" name="Fetch Bitcoin">
+            <section class="fetch-bitcoin">
+                <div class="container">
+                    <div class="row my-2">
+                      <h1>Example heading <span class="badge bg-secondary">New</span></h1>
+                    </div>
+                </div>
+            </section>
+        </template>
+    </data>
+</odoo>

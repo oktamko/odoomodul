@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <template id="custom_snippets" inherit_id="website.snippets" name="Custom Snippets">
+        <xpath expr="//div[@id='snippet_structure']" position="before">
+            <div id="snippet_structure" class="o_panel">
+                <div class="o_panel_header">Dynamic Custom Snippets</div>
+                <div class="o_panel_body">
+                    <t t-snippet="custom_snippets.explore_jobs"
+                       t-thumbnail="custom_snippets/static/description/images/thumbnail_1.png">
+                        <keywords>explore, jobs</keywords>
+                    </t>
+                    <t t-snippet="custom_snippets.fetch_bitcoin"
+                       t-thumbnail="custom_snippets/static/description/images/thumbnail_1.png">
+                        <keywords>fetch, bitcoin</keywords>
+                    </t>
+                    <t t-snippet="custom_snippets.modal"
+                       t-thumbnail="custom_snippets/static/description/images/modal.png">
+                        <keywords>modal, modal</keywords>
+                    </t>
+                    <t t-snippet="custom_snippets.button"
+                       t-thumbnail="custom_snippets/static/description/images/button.png">
+                        <keywords>button,button</keywords>
+                    </t>
+                    <t t-snippet="custom_snippets.offcanvas"
+                       t-thumbnail="custom_snippets/static/description/images/offcanvas.png">
+                        <keywords>off,canvas</keywords>
+                    </t>
+                    <t t-snippet="custom_snippets.pagination"
+                       t-thumbnail="custom_snippets/static/description/images/pagination.png">
+                        <keywords>pagination,pagination</keywords>
+                    </t>
+                    <t t-snippet="custom_snippets.scrollspy"
+                       t-thumbnail="custom_snippets/static/description/images/scrollspy.png">
+                        <keywords>scroll,spy</keywords>
+                    </t>
+                    <t t-snippet="custom_snippets.spinners"
+                       t-thumbnail="custom_snippets/static/description/images/spinners.png">
+                        <keywords>spinner,spinning</keywords>
+                    </t>
+                    <t t-snippet="custom_snippets.navs"
+                       t-thumbnail="custom_snippets/static/description/images/navs.png">
+                        <keywords>navigation,tabs</keywords>
+                    </t>
+                    <t t-snippet="custom_snippets.placeholder"
+                       t-thumbnail="custom_snippets/static/description/images/placeholder.png">
+                        <keywords>place,holder</keywords>
+                    </t>
+                           <t t-snippet="custom_snippets.tutorial"
+                       t-thumbnail="custom_snippets/static/description/images/placeholder.png">
+                        <keywords>tuto,rial</keywords>
+                    </t>
+                </div>
+            </div>
+        </xpath>
+    </template>
+</odoo>

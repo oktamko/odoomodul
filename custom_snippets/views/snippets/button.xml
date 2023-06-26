@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <template id="button" name="button">
+            <section class="button">
+                <button type="button" class="btn btn-primary">Primary</button>
+            </section>
+        </template>
+    </data>
+</odoo>
